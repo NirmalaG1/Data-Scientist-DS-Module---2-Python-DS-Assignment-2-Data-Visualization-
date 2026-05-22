@@ -4,12 +4,12 @@ In this project, you will act as a data analyst to clean, analyze, and visualize
 
 
 1) Loading the Taxis Dataset using the following code: 
-import seaborn as sns  
-# Load the 'taxis' dataset  
+import seaborn as sns
+ Load the 'taxis' dataset  
 df = sns.load_dataset("taxis") -------------->loaded data set as df 
 
 
-2) Handling Missing Values  
+3) Handling Missing Values  
 ● Check for missing values in the dataset and identify columns with missing data.  ------------>used df.isnull().sum() to calculate number of null values
   
 ●  Impute missing values using appropriate strategies based on the column type (e.g., 
